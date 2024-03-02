@@ -15,8 +15,7 @@ public class NewYorkPizzaIngredientFactory implements PizzaIngredientFactory {
     }
 
     public Veggies[] createVeggies() {
-        Veggies veggies[] = { new Garlic(),
-                new Mushrooms(),
+        Veggies veggies[] = { new Mushrooms(),
                 new Onions(),
                 new RedPeppers() };
         return veggies;
@@ -29,4 +28,5 @@ public class NewYorkPizzaIngredientFactory implements PizzaIngredientFactory {
     public Clams createClam() {
         return new FreshClams();
     }
+
 }
